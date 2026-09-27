@@ -1489,3 +1489,28 @@ footer strong {
     background: #155c43;
     transform: translateY(-2px);
 }
+/* =====================================================
+   BOUTON VOIR LE PROJET
+===================================================== */
+
+.project-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+
+    background: var(--green);
+    color: white;
+
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+
+    border-radius: 30px;
+
+    transition: 0.3s ease;
+}
+
+.project-link:hover {
+    background: var(--green-dark);
+    transform: translateY(-3px);
+}
